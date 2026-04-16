@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/ntolentino4/module_6_part3-backend:ae2aa70253c292d00322b8b0ae24d49aa627f396
+          image: ghcr.io/ntolentino4/module_6_part3-backend:bdb8c5005d487d4a1df55638c3d75ce7e4852f67
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
