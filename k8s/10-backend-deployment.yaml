@@ -5,7 +5,7 @@ metadata:
   labels:
     app: backend
 spec:
-  replicas: 3
+  replicas: 5
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/ntolentino4/module_6_part3-backend:5ba9039de6014e667bba79a1fd494588025443af
+          image: ghcr.io/ntolentino4/module_6_part3-backend:fb8424f5d9daf7bbb81cb19d7888047f3f593d16
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

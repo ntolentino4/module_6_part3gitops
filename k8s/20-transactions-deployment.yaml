@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/ntolentino4/module_6_part3-transactions:5ba9039de6014e667bba79a1fd494588025443af
+          image: ghcr.io/ntolentino4/module_6_part3-transactions:fb8424f5d9daf7bbb81cb19d7888047f3f593d16
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
